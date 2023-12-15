@@ -11,18 +11,20 @@ namespace Tyuiu.PyanzinaMA.Sprint6.TaskReview.V30.Test
         public void ValidGetMatrix()
         {
             DataService ds = new DataService();
-            int[,] matrix = {  { 9, 8, 7 },
-                               { 6, 5, 4 },
-                               { 3, 2, 1 } };
-            int n1 = 1;
-            int n2 = 10;
-            int r = 0;
+
+            int[,] array = new int[,] { { 64, 223, 13, 14, 5 },
+                                        { 62, 74, 8, 9, 0 },
+                                        { 18, 32, 5, -7, -9 },
+                                        { 13, 21, 1, -24, -15 },
+                                        { 6, 17, -8, -39, -16 },
+                                        { 1, 3, -15, -71, -19 }};
+            int c = 4;
             int k = 0;
-            int l = 2;
+            int l = 4;
 
-            double result = ds.GetMatrix(matrix, n1, n2, r, k, l);
-
-            Assert.AreEqual(8, result);
+            double res = ds.GetMatrix(array, c, k, l);
+            double wait = -8.0;
+            Assert.AreEqual(wait, res);
         }
     }
 }
