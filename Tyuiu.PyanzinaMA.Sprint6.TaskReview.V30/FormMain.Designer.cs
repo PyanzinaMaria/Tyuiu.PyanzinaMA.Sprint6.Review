@@ -30,32 +30,32 @@ namespace Tyuiu.PyanzinaMA.Sprint6.TaskReview.V30
         private void InitializeComponent()
         {
             this.groupBoxInPut_PMA = new System.Windows.Forms.GroupBox();
-            this.groupBoxOutPut_PMA = new System.Windows.Forms.GroupBox();
-            this.buttonGenMatrix_PMA = new System.Windows.Forms.Button();
-            this.dataGridViewOutPutMatrix_PMA = new System.Windows.Forms.DataGridView();
-            this.textBoxStart_PMA = new System.Windows.Forms.TextBox();
-            this.textBoxStop_PMA = new System.Windows.Forms.TextBox();
-            this.labelStart_PMA = new System.Windows.Forms.Label();
-            this.labelRow_PMA = new System.Windows.Forms.Label();
-            this.textBoxRow_PMA = new System.Windows.Forms.TextBox();
-            this.labelStop_PMA = new System.Windows.Forms.Label();
-            this.buttonDone_PMA = new System.Windows.Forms.Button();
-            this.labelRows_PMA = new System.Windows.Forms.Label();
-            this.textBoxRows_PMA = new System.Windows.Forms.TextBox();
-            this.textBoxColumns_PMA = new System.Windows.Forms.TextBox();
             this.labelColumns_PMA = new System.Windows.Forms.Label();
-            this.textBoxNumStart_PMA = new System.Windows.Forms.TextBox();
-            this.textBoxNumStop_PMA = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.dataGridViewOutPutMatrix_PMA = new System.Windows.Forms.DataGridView();
+            this.labelRows_PMA = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.buttonHelp_PMA = new System.Windows.Forms.Button();
+            this.labelStop_PMA = new System.Windows.Forms.Label();
+            this.labelRow_PMA = new System.Windows.Forms.Label();
+            this.buttonDone_PMA = new System.Windows.Forms.Button();
+            this.buttonGenMatrix_PMA = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.labelStart_PMA = new System.Windows.Forms.Label();
+            this.textBoxNumStop_PMA = new System.Windows.Forms.TextBox();
+            this.textBoxRow_PMA = new System.Windows.Forms.TextBox();
+            this.textBoxStop_PMA = new System.Windows.Forms.TextBox();
+            this.textBoxColumns_PMA = new System.Windows.Forms.TextBox();
+            this.textBoxNumStart_PMA = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxRows_PMA = new System.Windows.Forms.TextBox();
+            this.textBoxStart_PMA = new System.Windows.Forms.TextBox();
+            this.groupBoxOutPut_PMA = new System.Windows.Forms.GroupBox();
             this.labelRes_PMA = new System.Windows.Forms.Label();
             this.textBoxResult_PMA = new System.Windows.Forms.TextBox();
+            this.buttonHelp_PMA = new System.Windows.Forms.Button();
             this.buttonCondition_PMA = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBoxInPut_PMA.SuspendLayout();
-            this.groupBoxOutPut_PMA.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOutPutMatrix_PMA)).BeginInit();
+            this.groupBoxOutPut_PMA.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBoxInPut_PMA
@@ -86,28 +86,14 @@ namespace Tyuiu.PyanzinaMA.Sprint6.TaskReview.V30
             this.groupBoxInPut_PMA.TabStop = false;
             this.groupBoxInPut_PMA.Text = "Ввод данных";
             // 
-            // groupBoxOutPut_PMA
+            // labelColumns_PMA
             // 
-            this.groupBoxOutPut_PMA.Controls.Add(this.labelRes_PMA);
-            this.groupBoxOutPut_PMA.Controls.Add(this.textBoxResult_PMA);
-            this.groupBoxOutPut_PMA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBoxOutPut_PMA.Location = new System.Drawing.Point(12, 492);
-            this.groupBoxOutPut_PMA.Name = "groupBoxOutPut_PMA";
-            this.groupBoxOutPut_PMA.Size = new System.Drawing.Size(473, 79);
-            this.groupBoxOutPut_PMA.TabIndex = 0;
-            this.groupBoxOutPut_PMA.TabStop = false;
-            this.groupBoxOutPut_PMA.Text = "Результат";
-            // 
-            // buttonGenMatrix_PMA
-            // 
-            this.buttonGenMatrix_PMA.BackColor = System.Drawing.Color.LightBlue;
-            this.buttonGenMatrix_PMA.Location = new System.Drawing.Point(279, 37);
-            this.buttonGenMatrix_PMA.Name = "buttonGenMatrix_PMA";
-            this.buttonGenMatrix_PMA.Size = new System.Drawing.Size(175, 62);
-            this.buttonGenMatrix_PMA.TabIndex = 1;
-            this.buttonGenMatrix_PMA.Text = "Сгенерировать матрицу";
-            this.buttonGenMatrix_PMA.UseVisualStyleBackColor = false;
-            this.buttonGenMatrix_PMA.Click += new System.EventHandler(this.buttonGenMatrix_PMA_Click);
+            this.labelColumns_PMA.AutoSize = true;
+            this.labelColumns_PMA.Location = new System.Drawing.Point(24, 293);
+            this.labelColumns_PMA.Name = "labelColumns_PMA";
+            this.labelColumns_PMA.Size = new System.Drawing.Size(262, 20);
+            this.labelColumns_PMA.TabIndex = 5;
+            this.labelColumns_PMA.Text = "Количество столбцов в матрице:";
             // 
             // dataGridViewOutPutMatrix_PMA
             // 
@@ -119,46 +105,23 @@ namespace Tyuiu.PyanzinaMA.Sprint6.TaskReview.V30
             this.dataGridViewOutPutMatrix_PMA.Size = new System.Drawing.Size(239, 211);
             this.dataGridViewOutPutMatrix_PMA.TabIndex = 0;
             // 
-            // textBoxStart_PMA
+            // labelRows_PMA
             // 
-            this.textBoxStart_PMA.Location = new System.Drawing.Point(266, 322);
-            this.textBoxStart_PMA.Name = "textBoxStart_PMA";
-            this.textBoxStart_PMA.Size = new System.Drawing.Size(63, 26);
-            this.textBoxStart_PMA.TabIndex = 1;
-            this.textBoxStart_PMA.TextChanged += new System.EventHandler(this.textBoxStart_PMA_TextChanged);
+            this.labelRows_PMA.AutoSize = true;
+            this.labelRows_PMA.Location = new System.Drawing.Point(24, 261);
+            this.labelRows_PMA.Name = "labelRows_PMA";
+            this.labelRows_PMA.Size = new System.Drawing.Size(233, 20);
+            this.labelRows_PMA.TabIndex = 5;
+            this.labelRows_PMA.Text = "Количество строк в матрице:";
             // 
-            // textBoxStop_PMA
+            // label2
             // 
-            this.textBoxStop_PMA.Location = new System.Drawing.Point(370, 322);
-            this.textBoxStop_PMA.Name = "textBoxStop_PMA";
-            this.textBoxStop_PMA.Size = new System.Drawing.Size(63, 26);
-            this.textBoxStop_PMA.TabIndex = 1;
-            // 
-            // labelStart_PMA
-            // 
-            this.labelStart_PMA.AutoSize = true;
-            this.labelStart_PMA.Location = new System.Drawing.Point(24, 325);
-            this.labelStart_PMA.Name = "labelStart_PMA";
-            this.labelStart_PMA.Size = new System.Drawing.Size(236, 20);
-            this.labelStart_PMA.TabIndex = 2;
-            this.labelStart_PMA.Text = "Диапазон чисел в матрице от";
-            this.labelStart_PMA.Click += new System.EventHandler(this.labelStart_PMA_Click);
-            // 
-            // labelRow_PMA
-            // 
-            this.labelRow_PMA.AutoSize = true;
-            this.labelRow_PMA.Location = new System.Drawing.Point(18, 370);
-            this.labelRow_PMA.Name = "labelRow_PMA";
-            this.labelRow_PMA.Size = new System.Drawing.Size(249, 40);
-            this.labelRow_PMA.TabIndex = 3;
-            this.labelRow_PMA.Text = "Номер строки для вычисления \r\nсреднего арифметического";
-            // 
-            // textBoxRow_PMA
-            // 
-            this.textBoxRow_PMA.Location = new System.Drawing.Point(273, 370);
-            this.textBoxRow_PMA.Name = "textBoxRow_PMA";
-            this.textBoxRow_PMA.Size = new System.Drawing.Size(63, 26);
-            this.textBoxRow_PMA.TabIndex = 1;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(273, 429);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(29, 20);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "до";
             // 
             // labelStop_PMA
             // 
@@ -168,6 +131,15 @@ namespace Tyuiu.PyanzinaMA.Sprint6.TaskReview.V30
             this.labelStop_PMA.Size = new System.Drawing.Size(29, 20);
             this.labelStop_PMA.TabIndex = 4;
             this.labelStop_PMA.Text = "до";
+            // 
+            // labelRow_PMA
+            // 
+            this.labelRow_PMA.AutoSize = true;
+            this.labelRow_PMA.Location = new System.Drawing.Point(18, 370);
+            this.labelRow_PMA.Name = "labelRow_PMA";
+            this.labelRow_PMA.Size = new System.Drawing.Size(249, 40);
+            this.labelRow_PMA.TabIndex = 3;
+            this.labelRow_PMA.Text = "Номер строки для вычисления \r\nсреднего арифметического";
             // 
             // buttonDone_PMA
             // 
@@ -180,54 +152,16 @@ namespace Tyuiu.PyanzinaMA.Sprint6.TaskReview.V30
             this.buttonDone_PMA.UseVisualStyleBackColor = false;
             this.buttonDone_PMA.Click += new System.EventHandler(this.buttonDone_PMA_Click);
             // 
-            // labelRows_PMA
+            // buttonGenMatrix_PMA
             // 
-            this.labelRows_PMA.AutoSize = true;
-            this.labelRows_PMA.Location = new System.Drawing.Point(24, 261);
-            this.labelRows_PMA.Name = "labelRows_PMA";
-            this.labelRows_PMA.Size = new System.Drawing.Size(233, 20);
-            this.labelRows_PMA.TabIndex = 5;
-            this.labelRows_PMA.Text = "Количество строк в матрице:";
-            // 
-            // textBoxRows_PMA
-            // 
-            this.textBoxRows_PMA.Location = new System.Drawing.Point(266, 258);
-            this.textBoxRows_PMA.Name = "textBoxRows_PMA";
-            this.textBoxRows_PMA.Size = new System.Drawing.Size(63, 26);
-            this.textBoxRows_PMA.TabIndex = 1;
-            this.textBoxRows_PMA.TextChanged += new System.EventHandler(this.textBoxStart_PMA_TextChanged);
-            // 
-            // textBoxColumns_PMA
-            // 
-            this.textBoxColumns_PMA.Location = new System.Drawing.Point(292, 290);
-            this.textBoxColumns_PMA.Name = "textBoxColumns_PMA";
-            this.textBoxColumns_PMA.Size = new System.Drawing.Size(63, 26);
-            this.textBoxColumns_PMA.TabIndex = 1;
-            this.textBoxColumns_PMA.TextChanged += new System.EventHandler(this.textBoxStart_PMA_TextChanged);
-            // 
-            // labelColumns_PMA
-            // 
-            this.labelColumns_PMA.AutoSize = true;
-            this.labelColumns_PMA.Location = new System.Drawing.Point(24, 293);
-            this.labelColumns_PMA.Name = "labelColumns_PMA";
-            this.labelColumns_PMA.Size = new System.Drawing.Size(262, 20);
-            this.labelColumns_PMA.TabIndex = 5;
-            this.labelColumns_PMA.Text = "Количество столбцов в матрице:";
-            // 
-            // textBoxNumStart_PMA
-            // 
-            this.textBoxNumStart_PMA.Location = new System.Drawing.Point(204, 426);
-            this.textBoxNumStart_PMA.Name = "textBoxNumStart_PMA";
-            this.textBoxNumStart_PMA.Size = new System.Drawing.Size(63, 26);
-            this.textBoxNumStart_PMA.TabIndex = 1;
-            this.textBoxNumStart_PMA.TextChanged += new System.EventHandler(this.textBoxStart_PMA_TextChanged);
-            // 
-            // textBoxNumStop_PMA
-            // 
-            this.textBoxNumStop_PMA.Location = new System.Drawing.Point(308, 426);
-            this.textBoxNumStop_PMA.Name = "textBoxNumStop_PMA";
-            this.textBoxNumStop_PMA.Size = new System.Drawing.Size(63, 26);
-            this.textBoxNumStop_PMA.TabIndex = 1;
+            this.buttonGenMatrix_PMA.BackColor = System.Drawing.Color.LightBlue;
+            this.buttonGenMatrix_PMA.Location = new System.Drawing.Point(279, 37);
+            this.buttonGenMatrix_PMA.Name = "buttonGenMatrix_PMA";
+            this.buttonGenMatrix_PMA.Size = new System.Drawing.Size(175, 62);
+            this.buttonGenMatrix_PMA.TabIndex = 1;
+            this.buttonGenMatrix_PMA.Text = "Сгенерировать матрицу";
+            this.buttonGenMatrix_PMA.UseVisualStyleBackColor = false;
+            this.buttonGenMatrix_PMA.Click += new System.EventHandler(this.buttonGenMatrix_PMA_Click);
             // 
             // label1
             // 
@@ -239,25 +173,88 @@ namespace Tyuiu.PyanzinaMA.Sprint6.TaskReview.V30
             this.label1.Text = "Элементы массива от";
             this.label1.Click += new System.EventHandler(this.labelStart_PMA_Click);
             // 
-            // label2
+            // labelStart_PMA
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(273, 429);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 20);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "до";
+            this.labelStart_PMA.AutoSize = true;
+            this.labelStart_PMA.Location = new System.Drawing.Point(24, 325);
+            this.labelStart_PMA.Name = "labelStart_PMA";
+            this.labelStart_PMA.Size = new System.Drawing.Size(236, 20);
+            this.labelStart_PMA.TabIndex = 2;
+            this.labelStart_PMA.Text = "Диапазон чисел в матрице от";
+            this.labelStart_PMA.Click += new System.EventHandler(this.labelStart_PMA_Click);
             // 
-            // buttonHelp_PMA
+            // textBoxNumStop_PMA
             // 
-            this.buttonHelp_PMA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonHelp_PMA.Location = new System.Drawing.Point(278, 577);
-            this.buttonHelp_PMA.Name = "buttonHelp_PMA";
-            this.buttonHelp_PMA.Size = new System.Drawing.Size(175, 34);
-            this.buttonHelp_PMA.TabIndex = 1;
-            this.buttonHelp_PMA.Text = "Справка";
-            this.buttonHelp_PMA.UseVisualStyleBackColor = true;
-            this.buttonHelp_PMA.Click += new System.EventHandler(this.buttonHelp_PMA_Click);
+            this.textBoxNumStop_PMA.Location = new System.Drawing.Point(308, 426);
+            this.textBoxNumStop_PMA.Name = "textBoxNumStop_PMA";
+            this.textBoxNumStop_PMA.Size = new System.Drawing.Size(63, 26);
+            this.textBoxNumStop_PMA.TabIndex = 1;
+            // 
+            // textBoxRow_PMA
+            // 
+            this.textBoxRow_PMA.Location = new System.Drawing.Point(273, 370);
+            this.textBoxRow_PMA.Name = "textBoxRow_PMA";
+            this.textBoxRow_PMA.Size = new System.Drawing.Size(63, 26);
+            this.textBoxRow_PMA.TabIndex = 1;
+            // 
+            // textBoxStop_PMA
+            // 
+            this.textBoxStop_PMA.Location = new System.Drawing.Point(370, 322);
+            this.textBoxStop_PMA.Name = "textBoxStop_PMA";
+            this.textBoxStop_PMA.Size = new System.Drawing.Size(63, 26);
+            this.textBoxStop_PMA.TabIndex = 1;
+            // 
+            // textBoxColumns_PMA
+            // 
+            this.textBoxColumns_PMA.Location = new System.Drawing.Point(292, 290);
+            this.textBoxColumns_PMA.Name = "textBoxColumns_PMA";
+            this.textBoxColumns_PMA.Size = new System.Drawing.Size(63, 26);
+            this.textBoxColumns_PMA.TabIndex = 1;
+            this.textBoxColumns_PMA.TextChanged += new System.EventHandler(this.textBoxStart_PMA_TextChanged);
+            // 
+            // textBoxNumStart_PMA
+            // 
+            this.textBoxNumStart_PMA.Location = new System.Drawing.Point(204, 426);
+            this.textBoxNumStart_PMA.Name = "textBoxNumStart_PMA";
+            this.textBoxNumStart_PMA.Size = new System.Drawing.Size(63, 26);
+            this.textBoxNumStart_PMA.TabIndex = 1;
+            this.textBoxNumStart_PMA.TextChanged += new System.EventHandler(this.textBoxStart_PMA_TextChanged);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(159, 194);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(63, 26);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBoxStart_PMA_TextChanged);
+            // 
+            // textBoxRows_PMA
+            // 
+            this.textBoxRows_PMA.Location = new System.Drawing.Point(266, 258);
+            this.textBoxRows_PMA.Name = "textBoxRows_PMA";
+            this.textBoxRows_PMA.Size = new System.Drawing.Size(63, 26);
+            this.textBoxRows_PMA.TabIndex = 1;
+            this.textBoxRows_PMA.TextChanged += new System.EventHandler(this.textBoxStart_PMA_TextChanged);
+            // 
+            // textBoxStart_PMA
+            // 
+            this.textBoxStart_PMA.Location = new System.Drawing.Point(266, 322);
+            this.textBoxStart_PMA.Name = "textBoxStart_PMA";
+            this.textBoxStart_PMA.Size = new System.Drawing.Size(63, 26);
+            this.textBoxStart_PMA.TabIndex = 1;
+            this.textBoxStart_PMA.TextChanged += new System.EventHandler(this.textBoxStart_PMA_TextChanged);
+            // 
+            // groupBoxOutPut_PMA
+            // 
+            this.groupBoxOutPut_PMA.Controls.Add(this.labelRes_PMA);
+            this.groupBoxOutPut_PMA.Controls.Add(this.textBoxResult_PMA);
+            this.groupBoxOutPut_PMA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBoxOutPut_PMA.Location = new System.Drawing.Point(12, 492);
+            this.groupBoxOutPut_PMA.Name = "groupBoxOutPut_PMA";
+            this.groupBoxOutPut_PMA.Size = new System.Drawing.Size(473, 79);
+            this.groupBoxOutPut_PMA.TabIndex = 0;
+            this.groupBoxOutPut_PMA.TabStop = false;
+            this.groupBoxOutPut_PMA.Text = "Результат";
             // 
             // labelRes_PMA
             // 
@@ -275,6 +272,17 @@ namespace Tyuiu.PyanzinaMA.Sprint6.TaskReview.V30
             this.textBoxResult_PMA.Size = new System.Drawing.Size(63, 26);
             this.textBoxResult_PMA.TabIndex = 1;
             // 
+            // buttonHelp_PMA
+            // 
+            this.buttonHelp_PMA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonHelp_PMA.Location = new System.Drawing.Point(278, 577);
+            this.buttonHelp_PMA.Name = "buttonHelp_PMA";
+            this.buttonHelp_PMA.Size = new System.Drawing.Size(175, 34);
+            this.buttonHelp_PMA.TabIndex = 1;
+            this.buttonHelp_PMA.Text = "Справка";
+            this.buttonHelp_PMA.UseVisualStyleBackColor = true;
+            this.buttonHelp_PMA.Click += new System.EventHandler(this.buttonHelp_PMA_Click);
+            // 
             // buttonCondition_PMA
             // 
             this.buttonCondition_PMA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -286,14 +294,6 @@ namespace Tyuiu.PyanzinaMA.Sprint6.TaskReview.V30
             this.buttonCondition_PMA.UseVisualStyleBackColor = true;
             this.buttonCondition_PMA.Click += new System.EventHandler(this.buttonCondition_PMA_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(159, 194);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(63, 26);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBoxStart_PMA_TextChanged);
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -303,15 +303,16 @@ namespace Tyuiu.PyanzinaMA.Sprint6.TaskReview.V30
             this.Controls.Add(this.groupBoxInPut_PMA);
             this.Controls.Add(this.buttonCondition_PMA);
             this.Controls.Add(this.buttonHelp_PMA);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | SprintReview | Вариант 30 | Пьянзина М.А.";
             this.groupBoxInPut_PMA.ResumeLayout(false);
             this.groupBoxInPut_PMA.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOutPutMatrix_PMA)).EndInit();
             this.groupBoxOutPut_PMA.ResumeLayout(false);
             this.groupBoxOutPut_PMA.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOutPutMatrix_PMA)).EndInit();
             this.ResumeLayout(false);
 
         }

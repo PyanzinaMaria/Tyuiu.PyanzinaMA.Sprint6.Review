@@ -20,8 +20,8 @@ namespace Tyuiu.PyanzinaMA.Sprint6.TaskReview.V30
 
         DataService ds = new DataService();
         Random rnd = new Random();
-        public static int[,] mtrx;
-        public static int[,] matrix;
+        static int[,] mtrx;
+        static int[,] matrix;
         static int rows;
         static int columns;
 
